@@ -32,10 +32,20 @@ public class Main {
                 new Point(3,4),
                 5
         );
+        /*
         System.out.println(c1.getRadius());
-
-        c1.setRadius(-21);
+        c1.setRadius(1);
         System.out.println(c1.getRadius());
-
+        Rectangle r2= new Rectangle(tLeft, 1,2);
+        System.out.println(r1.counterforobject);
+        System.out.println(r2.counterforobject);
+        System.out.println(Rectangle.counter);
+        System.out.println(Circle.className);
+        Point myPoint= new Point(7,3);
+        System.out.println(myPoint.toString());
+        */
+        Shape shape=new Shape(new Point(5,6));
+        Rectangle r = new Rectangle();
+        Circle c=new Circle(c, 0, 3);
     }
 }
